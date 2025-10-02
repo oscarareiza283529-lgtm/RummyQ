@@ -1,8 +1,8 @@
 package EjercerTurno;
 
-public class Controller {
+public class Controlador {
 
-    private Model m;
+    private Modelo m;
 
     public void terminarTurno(){
         m.terminarTurno(); 
@@ -28,8 +28,8 @@ public class Controller {
         m.agregarFichasTablero(idsFichas, numeroGrupo);
     }
     //constructor del Controlador(Controller)
-    public Controller(){
-        m = new Model();
+    public Controlador(){
+        m = new Modelo();
     }
     
 }

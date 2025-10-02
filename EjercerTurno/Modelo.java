@@ -1,6 +1,6 @@
 package EjercerTurno;
 
-public class Model {
+public class Modelo {
 
     public void terminarTurno() {}
 
